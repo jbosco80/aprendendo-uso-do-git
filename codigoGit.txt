@@ -34,7 +34,9 @@ git branch (criando a branch -> staging)
  git checkout staging (muda para branch criada)
 
 git pull (atualiza o codigo puchando todos os arquivos ja modificados pela 
-equipe, só depois unir o stagin a master) com
+equipe, só depois unir o stagin a master) 
+
+testando merge
 
 git merge staging ( unindo a branch paralela a original)
 
