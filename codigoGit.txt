@@ -1,0 +1,42 @@
+Comandos do git
+
+git init
+
+git status
+
+git add "nome do arquivo"
+
+git add .
+
+git commit -m "mensagem inicial" exemplo "commit inicial"
+
+configuração
+
+ git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+ git remote add <name> <url> 
+git remote add origin https://github.com/jbosco80/aprendendo-uso-do-git
+acessando o repositorio copiado
+
+git push (enviando para nuvem)
+
+ git push --set-upstream origin master (criando a branch)
+
+git reflog (verifica as atualizações de arquivo)
+
+ git reset --hard (numero da versão -> 46ddc2c) (retorna a versão)
+
+git branch( verifica em que branch esta)
+
+git branch (criando a branch -> staging)
+
+ git checkout staging (muda para branch criada)
+
+git pull (atualiza o codigo puchando todos os arquivos ja modificados pela 
+equipe, só depois unir o stagin a master) com
+
+git merge staging ( unindo a branch paralela a original)
+
+
+
