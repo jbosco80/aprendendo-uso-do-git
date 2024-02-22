@@ -40,5 +40,7 @@ testando merge
 
 git merge staging ( unindo a branch paralela a original)
 
+git checkout -b ( nome da nova branch) master
+
 
 
